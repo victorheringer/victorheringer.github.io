@@ -1,5 +1,5 @@
 @mixin light {
-  --color-mode: 'light';
+  --color-mode: "light";
   --color-primary: #{$light-color-primary};
   --color-secondary: #{$light-color-secondary};
   --color-focus: #{$light-color-focus};
@@ -11,7 +11,7 @@
 }
 
 @mixin dark {
-  --color-mode: 'dark';
+  --color-mode: "dark";
   --color-primary: #{$dark-color-primary};
   --color-secondary: #{$dark-color-secondary};
   --color-focus: #{$dark-color-focus};
@@ -22,22 +22,22 @@
   --color-codebg: #{$dark-color-codebg};
 }
 
-body[data-theme='auto'] {
+body[data-theme="auto"] {
   @include light();
 
   @media (prefers-color-scheme: dark) {
     @include dark();
-    @import '_dark-diff'; // things different from light
+    @import "_dark-diff"; // things different from light
   }
 }
 
-body[data-theme='light'] {
+body[data-theme="light"] {
   @include light();
 }
 
-body[data-theme='dark'] {
+body[data-theme="dark"] {
   @include dark();
-  @import '_dark-diff'; // things different from light
+  @import "_dark-diff"; // things different from light
 }
 
 @mixin link-1 {
@@ -60,4 +60,4 @@ body[data-theme='dark'] {
   }
 }
 
-$divider: 2px solid var(--color-divider);
+$divider: 1px solid var(--color-divider);

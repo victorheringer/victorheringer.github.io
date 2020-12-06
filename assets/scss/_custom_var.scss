@@ -1,2 +1,20 @@
 // Override variables with that file
-@import '_custom'; // Keep that for back-compatibility. This shouldn't be used anymore.
+@import "_custom"; // Keep that for back-compatibility. This shouldn't be used anymore.
+
+$light-color-primary: #4361ee;
+$light-color-secondary: #b5179e;
+$light-color-focus: #3b469b;
+$light-color-mute: #9ea1a3;
+$light-color-font: #3f4551;
+$light-color-divider: #e5e2e4;
+$light-color-bg: #fffffd;
+$light-color-codebg: #f6f8fa;
+
+$dark-color-primary: #729efd;
+$dark-color-secondary: #bd93f9;
+$dark-color-focus: #8c66c2;
+$dark-color-mute: #cfcfcf;
+$dark-color-font: #e6e6e6;
+$dark-color-divider: #44475a;
+$dark-color-bg: #282a36;
+$dark-color-codebg: #414449;

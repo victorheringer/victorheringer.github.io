@@ -1,6 +1,6 @@
 baseURL = "https://victorheringer.github.io"
 title = "Victor Heringer"
-
+publishDir="docs"
 hasCJKLanguage = true
 enableEmoji = true
 enableRobotsTXT = true
@@ -8,8 +8,8 @@ disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
 ## Change this two to switch between different language
-languageCode = "en"  # For RSS, view https://www.rssboard.org/rss-language-codes
-defaultContentLanguage = "en"  # For HTML page, now support: en, zh-hans, zh-hant, ja, nl
+languageCode = "pt-br"  # For RSS, view https://www.rssboard.org/rss-language-codes
+defaultContentLanguage = "pt-br"  # For HTML page, now support: en, zh-hans, zh-hant, ja, nl
 
 summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
 paginate = 10
@@ -48,7 +48,7 @@ paginate = 10
 
   # Word counter and read time indicator in post metadata
   showWordCounter = true
-  showReadTime = false
+  showReadTime = true
 
   # License in the footer
   showLicenseInFooter = false
@@ -136,13 +136,10 @@ paginate = 10
 
   [[menu.link]]
     name = "GitHub"
-    url = "https://github.com/amzrk2"
+    url = "https://github.com/victorheringer"
     weight = 1
+
   [[menu.link]]
-    name = "Twitter"
-    url = "https://twitter.com/amzrk2"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/victorheringer"
     weight = 2
-  [[menu.link]]
-    name = "bilibili"
-    url = "https://space.bilibili.com/19767474"
-    weight = 3

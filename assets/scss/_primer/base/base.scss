@@ -22,7 +22,6 @@ body {
 
 a {
   color: $text-blue;
-  text-decoration: none;
 
   &:hover {
     text-decoration: underline;
@@ -77,10 +76,14 @@ button {
 }
 
 details {
-  summary { cursor: pointer; }
+  summary {
+    cursor: pointer;
+  }
 
   &:not([open]) {
     // Set details content hidden by default for browsers that don't do this
-    > *:not(summary) { display: none !important; }
+    > *:not(summary) {
+      display: none !important;
+    }
   }
 }
