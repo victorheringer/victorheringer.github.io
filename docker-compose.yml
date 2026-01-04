@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  hugo:
+    image: klakegg/hugo
+    command: server -D --poll 700ms
+    volumes:
+      - .:/src
+    ports:
+      - "1313:1313"

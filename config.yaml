@@ -1,0 +1,41 @@
+baseURL: "https://victorheringer.github.io/"
+theme: "hugo-bearblog"
+
+# GitHub Pages (Deploy from a branch) can serve from /docs on the main branch.
+publishDir: "docs"
+
+title: "Victor Heringer"
+author: "Victor Heringer"
+copyright: "Copyright © 2025, Victor Heringer."
+languageCode: "pt-BR"
+
+enableRobotsTXT: true
+disableKinds:
+  - "taxonomy"
+ignoreErrors:
+  - "error-disable-taxonomy"
+
+permalinks:
+  blog: "/:slug/"
+  tags: "/blog/:slug"
+
+params:
+  description: "Personal website"
+  favicon: "images/favicon.png"
+  images:
+    - "images/share.png"
+    - "images/raku-raku-pt1/scizor_16.png"
+    - "images/raku-raku-pt1/scizor_19.png"
+
+  title: "Victor Heringer"
+  hideMadeWithLine: true
+  # dateFormat: "2006-01-02"
+
+menu:
+  main:
+    - name: "Github"
+      url: "https://github.com/victorheringer"
+      weight: 20
+    - name: "Feed RSS"
+      url: "/index.xml"
+      weight: 30

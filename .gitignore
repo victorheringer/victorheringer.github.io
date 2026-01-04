@@ -1,0 +1,12 @@
+.hugo_build.lock
+
+# Hugo generated output (this repo publishes from docs/, so keep public/ ignored)
+public/
+
+# Hugo generated resources (safe to regenerate)
+resources/_gen/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
